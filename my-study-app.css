@@ -50,3 +50,19 @@ nav ul li {
 .card:hover {
     transform: translateY(-10px); /* ホバーで浮かせる動き */
 }
+
+button {
+    background-color: #0071e3; /* Appleのブルー */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #0077ed;
+    transform: scale(1.05); /* 少し大きくする */
+}
